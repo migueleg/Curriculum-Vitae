@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: relative;
+    padding: 2rem;
+}
+
+nav.bar {
+    width: 100%;
+    height: 60px;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex;
+    justify-content: start;
+}
+
+.bar .logo a{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bar ul{
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    justify-content: ;
+}
+
+li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 1rem;
+}
+
+a:hover{
+    color: #5A5A5A;
+}
+
+section{
+    height: 100vh;
+}
+
+section#hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 7.5px;
+}
+
+section#hero h1{
+    font-size: 3rem;
+    font-family: 'Helvetica'
+}
+section#hero h2{
+    color: #5A5A5A;
+    font-size: 2rem;
+    font-family: 'Helvetica'
+}
+
+section#project h2{
+    font-size: 2rem;
+    font-family: 'Helvetica'
+}
+
+.projects-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-detail{
+    border: 4px solid #5A5A5A;
+    width: 300px;
+    margin: 20px;
+}
+
+.project-detail img{
+    width: 100%;
+}
+
+
+/*
+background-color: #E3DAC9;
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+color: #212529;
+text-align: left;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+*/
